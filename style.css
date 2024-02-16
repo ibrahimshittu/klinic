@@ -9,6 +9,8 @@ body {
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    position: relative;
+    height: 100vh;
 }
 
 main {
@@ -60,4 +62,22 @@ footer {
     bottom: 0;
     margin: 10px;
     font-weight: 300;
+}
+
+@media (max-width: 768px) {
+    main h1 {
+        font-size: 2em;
+    }
+    main h2 {
+        font-size: 1.2em;
+    }
+    main h3 {
+        font-size: 1.2em;
+    }
+    main a {
+        font-size: 1.2em;
+    }
+    main h2 a {
+        font-size: 1em;
+    }
 }
